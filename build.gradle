@@ -20,7 +20,9 @@ mainClassName = 'App'
 dependencies {
 
     // Use JUnit test framework
-    testCompile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.13.2'
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+    testCompile 'com.codeborne:selenide:6.19.0'
 }
 
 // In this section you declare where to find the dependencies of your project
